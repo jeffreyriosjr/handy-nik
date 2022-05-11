@@ -33,7 +33,7 @@ $main_background_image = get_field('main_background_image');
                 </div> -->
                
                 <div class=" col-sm-3 call-button" data-aos="slide-right" data-aos-easing="ease-in" data-aos-duration="1000"> 
-                    <a class="call-now text-center">Call Now!</a>
+                    <a class="call-now text-center">Call Nick Now!</a>
                 </div>
                 <!-- <div class="lorem-2 col-sm-3" data-aos="zoom-in-down" data-aos-easing="ease-out" data-aos-duration="2500"data-aos-delay="3000"><?php echo do_shortcode('[smartslider3 slider="5"]'); ?>
                 </div> -->
