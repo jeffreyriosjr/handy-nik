@@ -1,0 +1,144 @@
+.site-main {
+  .we-defend-top {
+    width: 100%;
+    height: 1075px;
+
+    @media screen and (max-width: 768px) {
+      height: auto;
+    }
+    .main-background-image {
+      width: 100%;
+      position: absolute;
+      padding: 3% 3% 3% 3%;
+    }
+    .home {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      @media screen and (max-width: 768px) {
+        width: auto;
+        height: auto;
+      }
+      .home-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        width: auto;
+        height: 500px;
+
+        @media  screen and (max-width: 1024px) {
+          width: 100%;
+        }
+
+        .header {
+          width: auto;
+          padding: 15px;
+          @media screen and (min-width: 325px) and (max-width: 767px) {
+            display: flex;
+          }
+
+          .the-header {
+            color: black;
+            padding-top: 10%;
+            font-family: $font__raleway_bold;
+            font-size: 84px;
+            text-align: center;
+            opacity: 0.7;
+
+            @media screen and (max-width: 1024px) {
+              font-size: 42px;
+            }
+            @media screen and (max-width: 768px) {
+              font-size: 32px;
+            }
+            @media screen and (min-width: 325px) and (max-width: 767px) {
+              font-size: 18px;
+            }
+          }
+        }
+        .lorem-1 {
+          position: absolute;
+          display: block;
+          width: auto;
+          bottom: 10%;
+          left: 10%;
+          @media screen and (max-width: 1024px) {
+            width: 300px; 
+            bottom: 25%;
+          }
+          @media screen and (max-width: 989px) {
+            display: none;
+           }
+        }
+        .lorem-2 {
+          position: absolute;
+          text-align: right;
+          color: black;
+          bottom: 10%;
+          right: 5%;
+          @media screen and (max-width: 1024px) {
+           width: 300px;
+           bottom: 25%;
+          }
+          @media screen and (max-width: 989px) {
+            display: none;
+           }
+        }
+
+        .call-button {
+          display: flex;
+          justify-content: center;
+          @media screen and (max-width: 768px) {
+            margin: 0;
+            padding: 0;
+            width: auto;
+          }
+          .call-now {
+            font-family: $font__raleway_bold;
+            font-size: 32px;
+            text-decoration: none;
+            color: black;
+            background-color: burlywood;
+            opacity: 0.8;
+            border-radius: 50px;
+            padding: 5%;
+
+            @media screen and (max-width: 768px) {
+              font-size: 18px;
+              border-radius: 10px;
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .site-main {
+    display: block;
+  }
+}
+
+
+
+// Smaller Devices //
+
+// /* Extra small devices (phones, 600px and down) */
+// @media only screen and (max-width: 600px) {...}
+
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (min-width: 600px) {...}
+
+// /* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (min-width: 768px) {...}
+
+// /* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {...}
+
+// /* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {...}

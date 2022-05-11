@@ -1,0 +1,29 @@
+.testimonial-page {
+    padding: 50px;
+
+    @media screen and (max-width: 1024px) {
+       padding: 0;
+    }
+    @media screen and (max-width: 768px) {
+        padding: 0;
+        width: 100%;
+    }
+    @media screen and (max-width: 600px) {
+        padding: 0;
+        width: 100%;
+    }
+.testimonial{
+    width: 100%;
+    justify-content: center;
+   
+    .testimonial-header {
+        color: black;
+        font-family: $font__raleway_bold;
+        font-size: 44px;
+        text-align: center;
+        @media screen and (max-width: 768px) {
+            font-size: 24px;
+        }
+    }
+}
+}

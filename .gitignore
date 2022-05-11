@@ -1,0 +1,10 @@
+node_modules
+package-lock.json
+vendor
+composer.lock
+composer.phar
+.vscode/launch.json
+.idea/
+.DS_Store
+style.css.map
+phpcs.xml.dist

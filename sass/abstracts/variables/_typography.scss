@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Acme Gothic Extra Wide Black';
+    src: url('fonts/acmegothic-extrawideblack.ttf');
+}
+
+@font-face {
+    font-family: 'Sweet Sans Pro Regular';
+    src: url('fonts/SweetSansProRegular.otf');
+}
+
+@font-face {
+    font-family: 'Acme Gothic Extra Wide Bold';
+    src: url('fonts/AcmeGothicExtraWide-Bold.ttf');
+    
+}
+
+@font-face {
+    font-family: 'Grotesque MT Std Extended Bold';
+    src: url('fonts/Grotesque-MT-Std-Bold-Extended.ttf'),
+     url('fonts/Grotesque-MT-Std-bold-extended.otf');
+}
+
+@font-face { 
+    font-family: 'Beauty Rush Upright';
+    src: url('fonts/BeautyRushUpright-Regular.ttf'),
+        url('fonts/BeautyRushUpright-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: 'Formula Condensed Regular';
+    src: url('fonts/FormulaCondensed-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face { 
+    font-family: 'Formula Condensed Bold';
+    src: url('fonts/FormulaCondensed-Bold.ttf');
+}
+
+@font-face { 
+    font-family: 'Janesville Script';
+    src: url('fonts/Janesville-Script.ttf'),
+        url('fonts/Janesville-Script.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: 'Raleway Bold';
+    src: url('fonts/Raleway-Bold.ttf');
+}
+
+@font-face { 
+    font-family: 'Raleway-Medium';
+    src: url('fonts/Raleway-Medium.ttf');
+}
+
+// stylelint-disable value-keyword-case
+$font__main: 'Raleway-Medium', sans-serif;
+$font__headings: 'Grotesque MT Std Extended Bold', sans-serif;
+$font__script-headings-1: 'Beauty Rush Upright', sans-serif;
+$font__script-headings-2: 'Janesville Script', sans-serif;
+$font__grotesque_mt_std_bold_extended: 'Grotesque MT Std Extended Bold', sans-serif;
+$font__formula-condensed-bold: 'Formula Condensed Bold', sans-serif;
+$font__raleway_bold: 'Raleway Bold', sans-serif;
+$font__acme-gothic_extra_wide_bold: 'Acme Gothic Extra Wide Bold', sans-serif;
+$font__acme_gothic_extra_wide_black: 'Acme Gothic Extra Wide Black', sans-serif;
+$font__sweet_sans_pro_regular: 'Sweet Sans Pro Regular', sans-serif;
+// stylelint-enable value-keyword-case
+$font__code: 'Raleway-Medium', monospace;
+$font__pre: "Courier 10 Pitch", courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;
