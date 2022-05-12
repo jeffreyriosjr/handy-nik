@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Testimonial Page
- * @package handy-nick
+ * @package we-defend-fresno
  */
 
 get_header();

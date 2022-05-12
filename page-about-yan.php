@@ -9,7 +9,10 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package handy-nick
+ * @package we-defend-fresno
+ * 
+ * **/
+ 
 get_header();
 
 $section_one_header = get_field('section_one_header');

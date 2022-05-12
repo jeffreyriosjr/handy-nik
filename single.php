@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package handy-nick
+ * @package we-defend-fresno
  */
 
 get_header();

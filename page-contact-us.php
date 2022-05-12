@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Contact Us
- * @package handy-nick
+ * @package we-defend-fresno
  */
 
 get_header();
