@@ -1,10 +1,10 @@
 <?php
 /**
- * handy-nick functions and definitions
+ * we-defend-fresno functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package handy-nick
+ * @package we-defend-fresno
  */
 
 if ( ! defined( '_S_VERSION' ) ) {
@@ -19,14 +19,14 @@ if ( ! defined( '_S_VERSION' ) ) {
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function handy_nick_setup() {
+function we_defend_fresno_setup() {
 	/*
 		* Make theme available for translation.
 		* Translations can be filed in the /languages/ directory.
-		* If you're building a theme based on handy-nick, use a find and replace
-		* to change 'handy-nick' to the name of your theme in all the template files.
+		* If you're building a theme based on we-defend-fresno, use a find and replace
+		* to change 'we-defend-fresno' to the name of your theme in all the template files.
 		*/
-	load_theme_textdomain( 'handy-nick', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'we-defend-fresno', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -49,8 +49,8 @@ function handy_nick_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'handy-nick' ),
-			'footer-menu' => esc_html__( 'Footer', 'handy-nick')
+			'menu-1' => esc_html__( 'Primary', 'we-defend-fresno' ),
+			'footer-menu' => esc_html__( 'Footer', 'we-defend-fresno')
 		)
 	);
 
@@ -75,7 +75,7 @@ function handy_nick_setup() {
 	add_theme_support(
 		'custom-background',
 		apply_filters(
-			'handy_nick_custom_background_args',
+			'we_defend_fresno_custom_background_args',
 			array(
 				'default-color' => 'ffffff',
 				'default-image' => '',
@@ -101,7 +101,7 @@ function handy_nick_setup() {
 		)
 	);
 }
-add_action( 'after_setup_theme', 'handy_nick_setup' );
+add_action( 'after_setup_theme', 'we_defend_fresno_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -110,22 +110,22 @@ add_action( 'after_setup_theme', 'handy_nick_setup' );
  *
  * @global int $content_width
  */
-function handy_nick_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'handy_nick_content_width', 640 );
+function we_defend_fresno_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'we_defend_fresno_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'handy_nick_content_width', 0 );
+add_action( 'after_setup_theme', 'we_defend_fresno_content_width', 0 );
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function handy_nick_widgets_init() {
+function we_defend_fresno_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'handy-nick' ),
+			'name'          => esc_html__( 'Sidebar', 'we-defend-fresno' ),
 			'id'            => 'sidebar-1',
-			'description'   => esc_html__( 'Add widgets here.', 'handy-nick' ),
+			'description'   => esc_html__( 'Add widgets here.', 'we-defend-fresno' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
 			'before_title'  => '<h2 class="widget-title">',
@@ -133,22 +133,22 @@ function handy_nick_widgets_init() {
 		)
 	);
 }
-add_action( 'widgets_init', 'handy_nick_widgets_init' );
+add_action( 'widgets_init', 'we_defend_fresno_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
  */
-function handy_nick_scripts() {
-	wp_enqueue_style( 'handy-nick-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'handy-nick-style', 'rtl', 'replace' );
+function we_defend_fresno_scripts() {
+	wp_enqueue_style( 'we-defend-fresno-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_style_add_data( 'we-defend-fresno-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'handy-nick-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'we-defend-fresno-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'handy_nick_scripts' );
+add_action( 'wp_enqueue_scripts', 'we_defend_fresno_scripts' );
 
 /**
  * Implement the Custom Header feature.
