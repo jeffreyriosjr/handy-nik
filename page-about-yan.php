@@ -102,39 +102,21 @@ $case_type_six = get_field('case_type_six');
         <h3 class="case-four-header"><?php echo $case_header_title_four; ?></h3>
         <p class="case-four-desc"><?php echo $case_type_four; ?></p>
     </div>
-        <div class="case-five col-sm-4">
+    <div class="case-five col-sm-4">
         <h3 class="case-five-header"><?php echo $case_header_title_five; ?></h3>
         <p class="case-five-desc"><?php echo $case_type_five; ?></p>
     </div>
         <div class="case-six col-sm-4">
         <h3 class="case-six-header"><?php echo $case_header_title_six; ?></h3>
         <p class="case-six-desc"><?php echo $case_type_six; ?></p>
-    </div>
-</div>
-</div>
-</section>
-            <?php
-		while ( have_posts() ) :
-			the_post();
-
-			get_template_part( 'template-parts/content', 'page' );
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-    
-           
-        
-        
-    </main>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
 
 
 
 
 <?php
-get_sidebar();
 get_footer();
