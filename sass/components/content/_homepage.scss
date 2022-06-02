@@ -66,13 +66,13 @@
         flex-wrap: nowrap;
         flex-direction: column;
 
-        @media screen and (min-width: 325px){
-         position: relative;
-         padding: 15px;
+        @media screen and (min-width: 325px) {
+          position: relative;
+          padding: 15px;
         }
         @media screen and (min-width: 768px) {
-         position: relative;
-         padding: 5px;
+          position: relative;
+          padding: 5px;
         }
       }
     }
