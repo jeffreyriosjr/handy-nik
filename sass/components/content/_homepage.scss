@@ -1,24 +1,14 @@
 .site-main {
   .we-defend-top {
     width: 100%;
-    height: 1075px;
-
-    @media screen and (max-width: 768px) {
-      height: auto;
-    }
     .main-background-image {
       width: 100%;
       position: absolute;
       padding: 3% 3% 3% 3%;
     }
     .home {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
       @media screen and (max-width: 768px) {
         width: auto;
-        height: auto;
       }
       .home-page {
         display: flex;
@@ -26,26 +16,33 @@
         align-items: center;
         justify-content: center;
         align-content: center;
-        width: auto;
-        height: 500px;
 
-        @media  screen and (max-width: 1024px) {
+        @media screen and (max-width: 1024px) {
           width: 100%;
         }
 
-        .header {
+        @media screen and (min-width: 325px) {
           width: auto;
-          padding: 15px;
-          @media screen and (min-width: 325px) and (max-width: 767px) {
+          padding: 0;
+        }
+        .header {
+          position: relative;
+          width: 100%;
+          top: 10%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+
+          @media screen and (min-width: 325px) {
             display: flex;
+            flex-direction: column;
           }
 
           .the-header {
-            color: black;
-            padding-top: 10%;
-            font-family: $font__raleway_bold;
+            background: linear-gradient(90deg, #65fa6f, #4c5570);
             font-size: 84px;
             text-align: center;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             opacity: 0.7;
 
             @media screen and (max-width: 1024px) {
@@ -54,65 +51,27 @@
             @media screen and (max-width: 768px) {
               font-size: 32px;
             }
-            @media screen and (min-width: 325px) and (max-width: 767px) {
-              font-size: 18px;
+            @media screen and (max-width: 425px) {
+              font-size: 36px;
             }
           }
         }
-        .lorem-1 {
-          position: absolute;
-          display: block;
-          width: auto;
-          bottom: 10%;
-          left: 10%;
-          @media screen and (max-width: 1024px) {
-            width: 300px; 
-            bottom: 25%;
-          }
-          @media screen and (max-width: 989px) {
-            display: none;
-           }
-        }
-        .lorem-2 {
-          position: absolute;
-          text-align: right;
-          color: black;
-          bottom: 10%;
-          right: 5%;
-          @media screen and (max-width: 1024px) {
-           width: 300px;
-           bottom: 25%;
-          }
-          @media screen and (max-width: 989px) {
-            display: none;
-           }
-        }
+      }
+      .slider {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        padding: 5%;
+        flex-wrap: nowrap;
+        flex-direction: column;
 
-        .call-button {
-          display: flex;
-          justify-content: center;
-          width: 35%;
-          @media screen and (max-width: 768px) {
-            margin: 0;
-            padding: 0;
-            width: auto;
-          }
-          .call-now {
-            font-family: $font__raleway_bold;
-            font-size: 32px;
-            text-decoration: none;
-            color: black;
-            background-color: burlywood;
-            opacity: 0.8;
-            border-radius: 50px;
-            padding: 5%;
-
-            @media screen and (max-width: 768px) {
-              font-size: 18px;
-              border-radius: 10px;
-              padding: 0;
-            }
-          }
+        @media screen and (min-width: 325px){
+         position: relative;
+         padding: 15px;
+        }
+        @media screen and (min-width: 768px) {
+         position: relative;
+         padding: 5px;
         }
       }
     }
@@ -124,8 +83,6 @@
     display: block;
   }
 }
-
-
 
 // Smaller Devices //
 

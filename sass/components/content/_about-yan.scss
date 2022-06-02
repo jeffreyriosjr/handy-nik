@@ -1,192 +1,50 @@
-//About Section //
-
-.about {
+.about-page {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
   justify-content: center;
-  .yan-header {
-    margin: 2%;
-    font-size: 44px;
-    text-align: center;
-  }
-  .yan-image {
-    margin: 0%;
-    padding: 5%;
-    border-radius: 60% 60% 60% 60%;  
-    width: 600px;
-  }
-  .yan-section {
-    position: absolute;
-    text-align: center;
-    height: 10%;
-    bottom: -50%;
-    .yan-middle {
-      justify-content: center;
-      text-align: center;
-      font-size: 18px;
-      font-family: $font__raleway_bold;
-
-      .quotations-one {
-        height: 100px;
-        margin: 10px;
-        padding: 10px;
-      }
-      .quotations-two {
-        height: 100px;
-        margin: 10px;
-        padding: 25px;
-      }
-      .yan-description {
-        padding: 5%;
-      }
-    }
-  }
+  margin: 2%;
 }
-/* Cases Section */
-
-.cases {
-  margin: 5%;
-  padding-top: 0%;
-  .cases-headline {
-    color: black;
-    font-family: $font__raleway_bold;
-    font-size: 44px;
-  }
-
-  /* First Row Cases */
-
-  .case-columns-one {
-    justify-content: center;
-    padding: 0%;
-    margin: 0%;
-    width: 100%;
-    .case-one {
-      background-color: tomato;
-      padding: 50px;
-      border-radius: 50px;
-      border-style: solid;
-      border-color: black;
-      width: 30%;
-      height: 0%;
-      margin: 0.5%;
-      .case-one-header {
-        font-size: 24px;
-        width: auto;
-        margin: 0;
-      }
-      .case-one-desc {
-        font-size: 18px;
-        padding: 0;
-      }
-    }
-    .case-two {
-      background-color: cadetblue;
-      padding: 45px;
-      border-radius: 50px;
-      border-style: solid;
-      border-color: black;
-      width: 30%;
-      height: 0%;
-      margin: 0.5%;
-      .case-two-header {
-        width: auto;
-        font-size: 24px;
-        margin: 0;
-      }
-      .case-two-desc {
-        font-size: 18px;
-        padding: 0;
-      }
-    }
-    .case-three {
-      background-color: darkgray;
-      padding: 50px;
-      border-radius: 50px;
-      border-style: solid;
-      border-color: black;
-      width: 30%;
-      height: 0%;
-      margin: 0.5%;
-
-      .case-three-header {
-        width: auto;
-        margin: 0;
-        font-size: 24px;
-      }
-      .case-three-desc {
-        font-size: 18px;
-        padding: 0;
-      }
-    }
-  }
-
-  /* First Row Cases */
-
-
-  .case-columns-two {
-    justify-content: center;
-    padding: 0%;
-    margin: 0%;
-    width: 100%;
-    .case-four {
-      background-color: burlywood;
-      padding: 50px;
-      border-radius: 50px;
-      border-style: solid;
-      border-color: black;
-      width: 30%;
-      height: 0%;
-      margin: 0.5%;
-      .case-four-header {
-        font-size: 24px;
-        width: auto;
-        margin: 0;
-      }
-      .case-four-desc {
-        font-size: 18px;
-        padding: 0;
-      }
-    }
-    .case-five {
-      background-color: yellow;
-      padding: 45px;
-      border-radius: 50px;
-      border-style: solid;
-      border-color: black;
-      width: 30%;
-      height: 0%;
-      margin: 0.5%;
-      .case-five-header {
-        width: auto;
-        font-size: 24px;
-        margin: 0;
-      }
-      .case-five-desc {
-        font-size: 18px;
-        padding: 0;
-      }
-    }
-    .case-six {
-      background-color: yellowgreen;
-      padding: 50px;
-      border-radius: 50px;
-      border-style: solid;
-      border-color: black;
-      width: 30%;
-      height: 0%;
-      margin: 0.5%;
-
-      .case-six-header {
-        width: auto;
-        margin: 0;
-        font-size: 24px;
-      }
-      .case-six-desc {
-        font-size: 18px;
-        padding: 0;
-      }
-    }
-  }
+.box {
+  width: auto             ;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 50px;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+  font-size: 16px;
+}
+.box-img {
+  border-radius: 50%;
+  width: 50%;
+}
+.box .nik-header {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p {
+  text-align: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.box li {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a {
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover {
+  color: #b9b9b9;
 }

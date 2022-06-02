@@ -47,7 +47,8 @@
 				<p class="site-description"><?php echo $we_defend_fresno_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
-		<div class="main-navbar">
+		
+		<div class="main-navbar pb-5">
 		<nav id="site-navigation" class="container-fluid main-navigation">
 			<!-- <button class="menu-toggle"><?php esc_html_e( 'Primary Menu', 'we-defend-fresno' ); ?></button> -->
 			<?php

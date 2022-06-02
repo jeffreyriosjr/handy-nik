@@ -16,10 +16,35 @@
 	
 <!-- contains a nav menu and address -->
 <div class="container-fluid">
-  <h1 class="footer-header">Stay In Touch!</h1>
-					
-					<div class="footer-all row">
-						<!-- <div class="col <?php if (!has_nav_menu('footer-community-menu')) echo " text-center"; ?>">
+    <h1 class="footer-header">Stay In Touch!</h1>
+  <div class="container p-4 pb-0 text-center">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="footer-btn btn  btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="footer-btn btn  btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="footer-btn btn  btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="footer-btn btn  btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+    </section>
+    <!-- Section: Social media -->
+    	
+    <div class="footer-all row">
+						<div class="col <?php if (!has_nav_menu('footer-community-menu')) echo " text-center"; ?>">
 							<?php
 							wp_nav_menu( array( 
 								'theme_location' => 'footer-menu', 
@@ -38,45 +63,12 @@
                                 ));
                             ?>
 						</div>
-						<?php endif;?> -->
+            </div>
+						<?php endif;?>
 
-            <div class="container p-4 pb-0 text-center">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="footer-btn btn  btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-
-      <!-- Twitter -->
-      <a class="footer-btn btn  btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
-
-      <!-- Google -->
-      <a class="footer-btn btn  btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
-
-      <!-- Instagram -->
-      <a class="footer-btn btn  btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-      <!-- Linkedin -->
-      <a class="footer-btn btn  btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
-
-      <!-- Github -->
-      <a class="footer-btn btn  btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
   </div>
 
-					</div>
+				
 				</div>
 			</div>
                               </div>

@@ -1,29 +1,174 @@
 .testimonial-page {
-    padding: 50px;
+  padding: 50px;
 
-    @media screen and (max-width: 1024px) {
-       padding: 0;
-    }
-    @media screen and (max-width: 768px) {
-        padding: 0;
-        width: 100%;
-    }
-    @media screen and (max-width: 600px) {
-        padding: 0;
-        width: 100%;
-    }
-.testimonial{
+  @media screen and (max-width: 1024px) {
+    padding: 0;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0;
+    width: 100%;
+  }
+  @media screen and (max-width: 600px) {
+    padding: 0;
+    width: 100%;
+  }
+  .testimonial {
     width: 100%;
     justify-content: center;
-   
+
     .testimonial-header {
-        color: black;
-        font-family: $font__raleway_bold;
-        font-size: 44px;
-        text-align: center;
-        @media screen and (max-width: 768px) {
-            font-size: 24px;
-        }
+      color: black;
+      font-family: $font__raleway_bold;
+      font-size: 44px;
+      text-align: center;
+      @media screen and (max-width: 768px) {
+        font-size: 24px;
+      }
     }
-}
+  }
+  /* Cases Section */
+
+  .cases {
+    margin: 5%;
+    padding-top: 0%;
+    .cases-headline {
+      color: black;
+      font-family: $font__raleway_bold;
+      font-size: 44px;
+    }
+
+    /* First Row Cases */
+
+    .case-columns-one {
+      justify-content: center;
+      padding: 0%;
+      margin: 0%;
+      width: 100%;
+      .case-one {
+        background-color: tomato;
+        padding: 50px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: black;
+        width: 30%;
+        height: 0%;
+        margin: 0.5%;
+        .case-one-header {
+          font-size: 24px;
+          width: auto;
+          margin: 0;
+        }
+        .case-one-desc {
+          font-size: 18px;
+          padding: 0;
+        }
+      }
+      .case-two {
+        background-color: cadetblue;
+        padding: 45px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: black;
+        width: 30%;
+        height: 0%;
+        margin: 0.5%;
+        .case-two-header {
+          width: auto;
+          font-size: 24px;
+          margin: 0;
+        }
+        .case-two-desc {
+          font-size: 18px;
+          padding: 0;
+        }
+      }
+      .case-three {
+        background-color: darkgray;
+        padding: 50px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: black;
+        width: 30%;
+        height: 0%;
+        margin: 0.5%;
+
+        .case-three-header {
+          width: auto;
+          margin: 0;
+          font-size: 24px;
+        }
+        .case-three-desc {
+          font-size: 18px;
+          padding: 0;
+        }
+      }
+    }
+
+    /* First Row Cases */
+
+    .case-columns-two {
+      justify-content: center;
+      padding: 0%;
+      margin: 0%;
+      width: 100%;
+      .case-four {
+        background-color: burlywood;
+        padding: 50px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: black;
+        width: 30%;
+        height: 0%;
+        margin: 0.5%;
+        .case-four-header {
+          font-size: 24px;
+          width: auto;
+          margin: 0;
+        }
+        .case-four-desc {
+          font-size: 18px;
+          padding: 0;
+        }
+      }
+      .case-five {
+        background-color: yellow;
+        padding: 45px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: black;
+        width: 30%;
+        height: 0%;
+        margin: 0.5%;
+        .case-five-header {
+          width: auto;
+          font-size: 24px;
+          margin: 0;
+        }
+        .case-five-desc {
+          font-size: 18px;
+          padding: 0;
+        }
+      }
+      .case-six {
+        background-color: yellowgreen;
+        padding: 50px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: black;
+        width: 30%;
+        height: 0%;
+        margin: 0.5%;
+
+        .case-six-header {
+          width: auto;
+          margin: 0;
+          font-size: 24px;
+        }
+        .case-six-desc {
+          font-size: 18px;
+          padding: 0;
+        }
+      }
+    }
+  }
 }
