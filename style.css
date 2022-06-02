@@ -866,7 +866,8 @@ textarea {
 }
 
 .site-main .we-defend-top .home .home-page .header .the-header {
-	background: linear-gradient(90deg, #65fa6f, #4c5570);
+	background: linear-gradient(90deg, #b0e9b6, #111216);
+	text-shadow: 5px 5px 5px;
 	font-size: 84px;
 	text-align: center;
 	-webkit-background-clip: text;
