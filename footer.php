@@ -43,7 +43,7 @@
     </section>
     <!-- Section: Social media -->
     	
-    <div class="footer-all row">
+    <div class="footer-all">
 						<div class="col <?php if (!has_nav_menu('footer-community-menu')) echo " text-center"; ?>">
 							<?php
 							wp_nav_menu( array( 

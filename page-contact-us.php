@@ -14,7 +14,7 @@ $contact_us =get_field('contact_us');
 ?>
 <main id="contact-us" class="site-main contact-us">
 	<section id="contact-form" class="contact-form">
-		<div class="contact-yan container-fluid row d-flex" style="background-image: url('<?php echo $background_image; ?> '); background-size: cover; background-repeat: no-repeat;">
+		<div class="contact-yan container-fluid d-flex" style="background-image: url('<?php echo $background_image; ?> '); background-size: cover; background-repeat: no-repeat;">
 		<div class="col-sm-6">
 		<h1 class="contact-heading" data-aos="slide-left" data-aos-easing="ease-in" data-aos-duration="1000"><?php echo $contact_heading; ?>
 			</h1>
