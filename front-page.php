@@ -9,14 +9,11 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package we-defend-fresno
+ * @package handy-nick
  */
 get_header();
 
-$main_description = sanitize_textarea_field(get_field('main_description'));
-$request_a_quote = sanitize_textarea_field(get_field('request_a_quote'));
-$main_logo = get_field('main_logo');
-$main_background_image = get_field('main_background_image');
+
 
 ?>
 
@@ -31,7 +28,7 @@ $main_background_image = get_field('main_background_image');
                 </div>   
         </div>
         <div class="col-sm-3 slider">
-            <?php echo do_shortcode('[smartslider3 slider="4"]');?>
+            
         </div>   
     </div>
     </section>
@@ -40,4 +37,5 @@ $main_background_image = get_field('main_background_image');
 
 
 <?php
+the_content();
 get_footer();
