@@ -740,6 +740,9 @@ textarea {
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: flex;
+	background: white;
+	color: black;
+	margin: 2% 0%;
 }
 
 @media screen and (min-width: 37.5em) {

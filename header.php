@@ -48,9 +48,9 @@
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 		
-		<div class="main-navbar pb-5">
+		<div class="main-navbar">
 		<nav id="site-navigation" class="container-fluid main-navigation">
-			<!-- <button class="menu-toggle"><?php esc_html_e( 'Primary Menu', 'we-defend-fresno' ); ?></button> -->
+			<button class="menu-toggle"><?php esc_html_e( 'Niks Menu', 'we-defend-fresno' ); ?></button>
 			<?php
 			wp_nav_menu(
 				array(
